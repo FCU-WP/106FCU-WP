@@ -155,10 +155,24 @@
             	<div class="col-md-2">
 				</div>
 					<div class="col-md-8">
-            			<center style="border-width:3px;border-style:dashed;border-color:#FFFFFF;padding:10px;">
-							<h2>有任何問題請寫信至d0409891@fcu.edu.tw</h2>
+            			<div style="border-width:3px;border-style:dashed;border-color:#FFFFFF;padding:10px;">
+							<h2 class="text-center">聯絡我們<hr></hr></h2>
+							<div class="row">
+							<div class="col-md-4 col-sm-3 col-xs-12"><img src="https://www.igiving.org.tw/www/images/igiving_55.jpg" class="img-responsive" alt="Responsive image"></div>
+							<div class="col-md-8 col-sm-9 col-xs-12 mt">
+							<h3 style="color:red">親愛的捐款人 您好：<br></h3>
+							<h4>謝謝您對我們的支持，您的愛心將造福更多弱勢團體。<br>
+							若您對公益團體提出的各項方案有疑問，如勸募方案的內容說明，捐物方案的報名或是捐款收據寄送相關的問題，請您直接連絡該項受贈的公益團體，在網頁上都有載明其連絡電話及客服電子郵件信箱。
+							若您是對我們網頁平台有使用上的問題或建議，歡迎您在工作天週一~週五9:00~18:00與我們聯絡。<br><br></h4>
 							
-                		</center>
+							<h3 style="color:red">偏鄉兒童發展援助論壇<br></h3>
+							<h4>客服信箱：d0409891@fcu.edu.tw<br>
+							客服專線：0928-404-***<br>
+							收到您的來信或來電後，我們將儘快為您服務。謝謝！<br>
+							祝 平安順心<br>
+							偏鄉兒童發展援助論壇客服部 敬上</h4></div>
+							</div>
+						</div>
 					</div>
                	<div class="col-md-2">
 				</div>
