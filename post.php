@@ -1,4 +1,4 @@
-<?php session_start(); ?>
+﻿<?php session_start(); ?>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <?php
 if($_SESSION['username'] == null)
@@ -38,6 +38,68 @@ header("location:show.php");
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet" type="text/css">
+
+      <style>
+          .btn {
+              font-family: inherit;
+              font-size: .875rem;
+              font-weight: 700;
+              font-weight: 500;
+              cursor: pointer;
+              display: inline-block;
+              line-height: 1.5rem;
+              padding: .5rem 1rem;
+              margin: 0;
+              height: auto;
+              border: 2px solid transparent;
+              vertical-align: middle;
+              -webkit-appearance: none;
+              color: inherit;
+              background-color: transparent
+          }
+
+            .btn, .btn:hover {
+                text-decoration: none
+            }
+
+            .btn:focus {
+                outline: 0;
+                border-color: rgba(0,0,0,.125);
+                box-shadow: 0 0 0 3px rgba(0,0,0,.25)
+            }
+
+          .btn-outline, .btn-outline:hover {
+              border-color: currentcolor
+          }
+
+          .btn-outline {
+              border-radius: 7px
+          }
+
+            .btn-outline:hover {
+                box-shadow: inset 0 0 0 20rem rgba(0,0,0,.0625)
+            }
+
+            .btn-outline:active {
+                box-shadow: inset 0 0 0 20rem rgba(0,0,0,.125),inset 0 3px 4px 0 rgba(0,0,0,.25),0 0 1px rgba(0,0,0,.125)
+            }
+
+            .btn-outline.is-disabled, .btn-outline:disabled {
+                opacity: .5
+            }
+
+          .teal {
+              color: #39cccc
+          }
+
+          .red {
+              color: #ff4136
+          }
+
+          .purple {
+              color: #b10dc9
+          }
+      </style>
   </head>
   <body>
     <div class="container-fluid">
@@ -129,31 +191,53 @@ header("location:show.php");
             	<div class="col-md-2">
 				</div>
 					<div class="col-md-8">
-            			<center style="border-width:3px;border-style:dashed;border-color:#FFFFFF;padding:5px;">
-             		  	  <h2>刊登文章 </h2>
-                       		 <form id="form1" name="form1" method="get">
-                         	 <p style="font-size:18px">分類:
-                                 <select name="guestType" id="guestType">
-                                    <option value="1" selected="selected">募款</option>
-                                    <option value="2">募物</option>
-                                    <option value="3">募人</option>
-                                 </select>
-                                主旨:
-                                 <input name="guestSubject" type="text" id="guestSubject" size="25" />
-                          	 </p>
-                          <h2>活動詳情</h2>
-                          <p>
-                 			 <textarea name="guestContent" id="guestContent" cols="100" rows="10"></textarea>
-                          </p>
-                          <p style="font-size:18px">聯絡方式:
-                            <input name="guestContact" type="text" id="guestContact" size="50" />
-                          </p>
-                          <p>
-                            <input type="submit" name="button" id="button" value="送出" />
-                          </p>
-                  			</form>
-                       	  <p>&nbsp;</p>
-                		</center>
+            			<div style="border-width:3px;border-style:dashed;border-color:#FFFFFF;padding:5px;">
+             		  	  <h1 style="text-align:center">刊登文章<hr /></h1>
+                            <form id="form1" name="form1" method="get">
+                                <div class="row">
+                                    <div class="col-md-2"></div>
+                                    <div class="col-md-2"><label for="guestType" style="font-size:20px">分類</label></div>
+                                    <div class="col-md-6">
+                                        <select name="guestType" id="guestType" class="form-control">
+                                            <option value="1" selected="selected">募款</option>
+                                            <option value="2">募物</option>
+                                            <option value="3">募人</option>
+                                        </select>
+                                    </div>
+                                </div><br />
+                                <div class="row">
+                                    <div class="col-md-2"></div>
+                                    <div class="col-md-2"><label for="guestSubject" style="font-size:20px">主旨</label></div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input name="guestSubject" type="text" id="guestSubject" class="form-control" placeholder="主旨" required/>
+                                        </div>
+                                    </div>
+                                </div><br />
+                                <div class="row">
+                                    <div class="col-md-2"></div>
+                                    <div class="col-md-2"><label for="guestContent" style="font-size:20px">活動詳情</label></div>
+                                    <div class="col-md-6">
+                                        <textarea class="form-control" name="guestContent" id="guestContent" rows="10" placeholder="寫點什麼吧..." required></textarea>
+                                    </div>
+                                </div><br />
+                                <div class="row">
+                                    <div class="col-md-2"></div>
+                                    <div class="col-md-2"><label for="guestContact" style="font-size:20px">連絡方式</label></div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input name="guestContact" type="text" id="guestContact" class="form-control" placeholder="聯絡方式" />
+                                        </div>
+                                    </div>
+                                </div><br />
+                                <div class="row">
+                                    <div class="col-md-6"></div>
+                                    <div class="col-md-1">
+                                        <button type="submit" name="button" id="button" class="btn btn-outline red">送出</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
 					</div>
                	<div class="col-md-2">
 				</div>
