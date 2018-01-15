@@ -27,7 +27,23 @@
     <link href="css/style.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-
+	<script>
+	  window.fbAsyncInit = function() {
+		FB.init({
+		  appId            : '350529272037640',
+		  autoLogAppEvents : true,
+		  xfbml            : true,
+		  version          : 'v2.11'
+		});
+	  };
+	  (function(d, s, id){
+		 var js, fjs = d.getElementsByTagName(s)[0];
+		 if (d.getElementById(id)) {return;}
+		 js = d.createElement(s); js.id = id;
+		 js.src = "https://connect.facebook.net/en_US/sdk.js";
+		 fjs.parentNode.insertBefore(js, fjs);
+	   }(document, 'script', 'facebook-jssdk'));
+	</script>
     <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-2">
@@ -40,7 +56,7 @@
 							<a href="index.php">首頁</a> <span class="divider"></span>
 						</li>
 						<li>
-							<a href="#">粉絲頁</a> <span class="divider"></span>
+							<a href="https://www.facebook.com/%E5%81%8F%E9%84%89%E5%85%92%E7%AB%A5%E7%99%BC%E5%B1%95%E6%8F%B4%E5%8A%A9%E8%AB%96%E5%A3%87-151420602306749/" target=_blank>粉絲頁</a> <span class="divider"></span>
 						</li>
 						<li>
 							<a href="inf.php">聯絡我們</a> <span class="divider"></span>
@@ -245,6 +261,10 @@
 					<a href="http://www.npo.org.tw/index.asp" target="_blank"><img alt="Bootstrap Image Preview" src="https://imgur.com/DttGZ5E.png"></a><br><br>
 					<a href="http://www.17885.com.tw/" target="_blank"><img alt="Bootstrap Image Preview" src="https://imgur.com/Al3xTZC.png"></a><br><br>
 					<a href="https://www.children.org.tw/" target="_blank"><img alt="Bootstrap Image Preview" src="https://imgur.com/Dd7Rrw0.png"></a><br><br>
+					<div class="fb-customerchat"
+					  page_id="151420602306749"
+					  minimized="false">
+					</div>
 				</div>
 			</div>
 		</div>
@@ -260,7 +280,7 @@
 				<a href="index.php">首頁</a>
 				<a href="post.php">發布文章</a>
 				<a href="show.php">瀏覽文章</a> 
-				<a href="#">粉絲頁</a> 
+				<a href="https://www.facebook.com/%E5%81%8F%E9%84%89%E5%85%92%E7%AB%A5%E7%99%BC%E5%B1%95%E6%8F%B4%E5%8A%A9%E8%AB%96%E5%A3%87-151420602306749/" target=_blank>粉絲頁</a> 
 				<a href="inf.php">聯絡我們</a> <br>
 				<img src="https://imgur.com/V7bG9Wb.png">
 				<h3>Huang © 2017 Just for FCU_Demo</h3><br><br>
