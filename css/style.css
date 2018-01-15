@@ -1,6 +1,9 @@
 body{
 	background-color:pink;
+	font-family: "Microsoft JhengHei";
+	font-size: 150%;
+	
 }
-h1 {
-	font-family: "Microsoft JhengHei;
+h1,h2,h3,h4,h5,h6{
+	font-family: "Microsoft JhengHei";
 }
