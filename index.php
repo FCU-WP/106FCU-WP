@@ -47,6 +47,7 @@
     <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-2">
+			
 		</div>
 		<div class="col-md-8">
 			<div class="row">
@@ -127,6 +128,7 @@
 				</div>
 			</div>
 			<div class="row">
+			<marquee behavior=SCROLL direction=left SCROLLAMOUNT=6>感謝！藍海集團 國董 大力贊助５０００萬元補助偏鄉兒童營養午餐！！ 感謝！ 洪打顛 王董事長 提供６所偏鄉學校平板教室各６０台平板電腦！</marquee>
 				<div class="col-md-9">
 					<div class="carousel slide" id="carousel-858790">
 						<ol class="carousel-indicators">
@@ -255,12 +257,12 @@
 					</h4>
 					<hr>
 					<h2>其他愛心網站</h2>
-					<a href="https://lecoin.cc/News" target="_blank"><img alt="Bootstrap Image Preview" src="https://imgur.com/WM8vx4w.png"></a><br><br>
-					<a href="https://www.104.com.tw/area/volunteer/index.cfm" target="_blank"><img alt="Bootstrap Image Preview" src="https://imgur.com/Lxxbxq8.png"></a><br><br>
-					<a href="http://www.igoods.tw/News/News_Info.aspx?ID=87" target="_blank"><img alt="Bootstrap Image Preview" src="https://imgur.com/8nAEaIZ.png"></a><br><br>
-					<a href="http://www.npo.org.tw/index.asp" target="_blank"><img alt="Bootstrap Image Preview" src="https://imgur.com/DttGZ5E.png"></a><br><br>
-					<a href="http://www.17885.com.tw/" target="_blank"><img alt="Bootstrap Image Preview" src="https://imgur.com/Al3xTZC.png"></a><br><br>
-					<a href="https://www.children.org.tw/" target="_blank"><img alt="Bootstrap Image Preview" src="https://imgur.com/Dd7Rrw0.png"></a><br><br>
+					<a href="https://lecoin.cc/News" target="_blank"><img alt="Bootstrap Image Preview" src="https://imgur.com/WM8vx4w.png" class="img-circle" width="140" height="140"></a><br><br>
+					<a href="https://www.104.com.tw/area/volunteer/index.cfm" target="_blank"><img alt="Bootstrap Image Preview" src="https://imgur.com/Lxxbxq8.png" class="img-circle" width="140" height="140"></a><br><br>
+					<a href="http://www.igoods.tw/News/News_Info.aspx?ID=87" target="_blank"><img alt="Bootstrap Image Preview" src="https://imgur.com/8nAEaIZ.png" class="img-circle" width="140" height="140"></a><br><br>
+					<a href="http://www.npo.org.tw/index.asp" target="_blank"><img alt="Bootstrap Image Preview" src="https://imgur.com/DttGZ5E.png" class="img-circle" width="140" height="140"></a><br><br>
+					<a href="http://www.17885.com.tw/" target="_blank"><img alt="Bootstrap Image Preview" src="https://imgur.com/Al3xTZC.png" class="img-circle" width="140" height="140"></a><br><br>
+					<a href="https://www.children.org.tw/" target="_blank"><img alt="Bootstrap Image Preview" src="https://imgur.com/Dd7Rrw0.png" class="img-circle" width="140" height="140"></a><br><br>
 					<div class="fb-customerchat"
 					  page_id="151420602306749"
 					  minimized="false">
